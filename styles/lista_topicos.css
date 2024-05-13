@@ -1,0 +1,44 @@
+.lista__topicos__background{
+    padding: 1em 0;
+}
+
+.lista__topicos__titulo{
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 1em 0 2em 0;
+}
+
+.lista__topicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+}
+
+.topico{
+    display: flex;
+    margin: 0.5em;
+}
+
+.topico__link{
+    font-size: 14px;
+    padding: 1.5em;
+}
+
+@media screen and (min-width: 1024px){
+    .lista__topicos__titulo{
+        font-size: 24px;
+    }
+
+    .topico__link{
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+
+@media screen and (min-width: 1728px){
+    .lista__topicos__background{
+        padding: 3em 25vw;
+    }
+}
